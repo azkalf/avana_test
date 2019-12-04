@@ -1,0 +1,19 @@
+{
+    "name": "azkalf/test2-Avana.id",
+    "description": "PHP Backend Test 2 - Avana.id",
+    "type": "test2",
+    "authors": [
+        {
+            "name": "Azkal Fikri",
+            "email": "saklu07@gmail.com"
+        }
+    ],
+    "require": {
+    	"phpoffice/phpspreadsheet": "^1.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Azkalf\\": "app/Azkalf"
+        }
+    }
+}
